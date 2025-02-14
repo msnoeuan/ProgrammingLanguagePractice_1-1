@@ -19,13 +19,41 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		CAC609FD2D46573100985109 /* Programming_Language_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programming_Language_Practice; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAEB13412D58B54E00C2FC38 /* Programming_Language_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programming_Language_Practice; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		CA6F33092D5DF18E00998778 /* Exceptions for "Ch05" folder in "Programming_Language_Practice" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				01arithop.c,
+			);
+			target = CAC609FC2D46573100985109 /* Programming_Language_Practice */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CAC609FF2D46573100985109 /* Programming_Language_Practice */ = {
+		CA6F33062D5DF10200998778 /* Ch05 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Programming_Language_Practice;
+			exceptions = (
+				CA6F33092D5DF18E00998778 /* Exceptions for "Ch05" folder in "Programming_Language_Practice" target */,
+			);
+			path = Ch05;
+			sourceTree = "<group>";
+		};
+		CAC60A072D46574400985109 /* Ch02 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Ch02;
+			sourceTree = "<group>";
+		};
+		CACECF542D4F83FF009243C7 /* Ch04 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Ch04;
+			sourceTree = "<group>";
+		};
+		CACECF722D4F840B009243C7 /* Ch03 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Ch03;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -44,17 +72,12 @@
 		CAC609F42D46573100985109 = {
 			isa = PBXGroup;
 			children = (
-				CAC609FF2D46573100985109 /* Programming_Language_Practice */,
-				CAC609FE2D46573100985109 /* Products */,
+				CAEB13412D58B54E00C2FC38 /* Programming_Language_Practice */,
+				CAC60A072D46574400985109 /* Ch02 */,
+				CACECF722D4F840B009243C7 /* Ch03 */,
+				CACECF542D4F83FF009243C7 /* Ch04 */,
+				CA6F33062D5DF10200998778 /* Ch05 */,
 			);
-			sourceTree = "<group>";
-		};
-		CAC609FE2D46573100985109 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CAC609FD2D46573100985109 /* Programming_Language_Practice */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,14 +95,11 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				CAC609FF2D46573100985109 /* Programming_Language_Practice */,
-			);
 			name = Programming_Language_Practice;
 			packageProductDependencies = (
 			);
 			productName = Programming_Language_Practice;
-			productReference = CAC609FD2D46573100985109 /* Programming_Language_Practice */;
+			productReference = CAEB13412D58B54E00C2FC38 /* Programming_Language_Practice */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +126,7 @@
 			mainGroup = CAC609F42D46573100985109;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CAC609FE2D46573100985109 /* Products */;
+			productRefGroup = CAC609F42D46573100985109;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
